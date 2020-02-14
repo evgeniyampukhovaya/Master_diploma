@@ -3,6 +3,7 @@ Code for ChIP-seq peak intersections and motif finding
 #Intersections of 2 bed files (genome intervals)
 
 Intersection_bed_files.py - find overlapping regions in 2 bed files
+
 Sample files: bed_file1.bed, bed_file2.bed, bed_file_result.bed
 
 #Find motifs using PWMs
@@ -18,6 +19,7 @@ motif_coordinates_results.txt - column names: 1) seq_ID 2)sequence 3) motif sequ
 
 
 #De novo motif search
+
 Homer.txt - commands for Homer tool using genome and random background (for more information, read Homer manual)
 
 #Make a list of promoter coordinates (-1500; +longest UTR) from gff genome annotation
