@@ -26,7 +26,7 @@ Homer.txt - commands for Homer tool for using genome and random background (for 
 
 #Make a list of promoter coordinates (-1500; +longest UTR) from gff genome annotation
 promoters_1500_UTR.R 
-Sample files: Araport11_GFF3_genes_transposons.201606.gff, Araport11_201606_prot_cod_gene_promoters_1500_longest_UTR.fasta
+Sample files: Araport11_GFF3_genes_transposons.201606.gff, Araport11_201606_prot_cod_gene_promoters_1500_longest_UTR.bed
 
 
 #Intersections of peaks with promoters
