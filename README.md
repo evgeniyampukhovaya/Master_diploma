@@ -30,5 +30,5 @@ Sample files: Araport11_GFF3_genes_transposons.201606.gff, Araport11_201606_prot
 
 
 #Intersections of peaks with promoters
-
+intersections_peaks_promoters.py
 #Make fasta from bed
