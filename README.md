@@ -10,9 +10,13 @@ Sample files: bed_file1.bed, bed_file2.bed, bed_file_result.bed
 PFM_to_PWM.py - converts frequency matrix into position weight matrix
 find_motifs_in_fasta.py - find motif coordinates using PWM
 find_motifs_in_fasta_optimized.py - the same as find_motifs_in_fasta.py, but works faster
-Sample files: PFM.txt, PWM.txt, fasta_file.fasta, motif_coordinates_results.fasta
+Sample files: PFM.txt, PWM.txt, fasta_file_for_motif_search.fasta, motif_coordinates_results.txt
 
 #De novo motif search
 Homer.txt - commands for Homer tool using genome and random background (for more information, read Homer manual)
 
+#Make a list of promoter coordinates (-1500; +longest UTR) from gff genome annotation
+
 #Intersections of peaks with promoters
+
+#Make fasta from bed
