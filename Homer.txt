@@ -1,0 +1,7 @@
+#Genome backround
+findMotifsGenome.pl /storage/pukhovayalcl/ein3_chip-seq_Chang_2013.bed tair10 /storage/pukhovayalcl/  -preparsedDir /storage/pukhovayalcl/ -size given -mask -p 4 -preparse > /storage/pukhovayalcl/stdout.txt 2> /storage/pukhovayalcl/stderr.txt
+findMotifsGenome.pl <path to bed file> tair10 <path to output folder>  -preparsedDir <path to output folder> -size given -mask -p 4 -preparse > /storage/pukhovayalcl/stdout.txt 2> /storage/pukhovayalcl/stderr.txt
+
+#Random (shaffled) background
+findMotifs.pl /storage/pukhovayalcl/ein3_chip-seq_Chang_2013.fas fasta /storage/pukhovayalcl/ -fasta /storage/pukhovayalcl/1ein3_chip-seq_Chang_2013.fas~1.txt -p 4
+findMotifs.pl <path to peak file> fasta <path to output folder> -fasta <path to shaffled file> -p 4
