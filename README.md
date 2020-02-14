@@ -31,4 +31,7 @@ Sample files: Araport11_GFF3_genes_transposons.201606.gff, Araport11_201606_prot
 
 #Intersections of peaks with promoters
 intersections_peaks_promoters.py
+
 #Make fasta from bed
+get_fasta_from_bed.py 
+Sample file TAIR10_chr_1.fasta - trancated file as example, Araport11_201606_prot_cod_gene_promoters_1500_longest_UTR.bed, Araport11_201606_prot_cod_gene_promoters_1500_longest_UTR.fasta
