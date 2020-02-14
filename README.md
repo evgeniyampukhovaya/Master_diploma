@@ -22,7 +22,7 @@ Sample files: Araport11_201606_prot_cod_gene_promoters_1500_longest_UTR.fasta - 
 
 #De novo motif search
 
-Homer.txt - commands for Homer tool using genome and random background (for more information, read Homer manual)
+Homer.txt - commands for Homer tool for using genome and random background (for more information, read Homer manual)
 
 #Make a list of promoter coordinates (-1500; +longest UTR) from gff genome annotation
 
