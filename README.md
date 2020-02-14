@@ -17,6 +17,11 @@ Sample files: PFM.txt, PWM.txt, fasta_file_for_motif_search.fasta, motif_coordin
 
 motif_coordinates_results.txt - column names: 1) seq_ID 2)sequence 3) motif sequence 4) motif_start (from 1st position in the sequence) 5) motif_end 6) motif_score 7) motif strand (regarding to sequence)
 
+#Find threshold for PWMs (false positive rate)
+FalsePostivieRateCount.py - create a table
+threshold_plot.py - plot and calculation of threshold
+Sample files: Araport11_201606_prot_cod_gene_promoters_1500_longest_UTR.fasta - promoter sequenses of all protein-coding genes in Arabidopsis thaliana, PWM.txt, threshold_results.txt, 
+
 
 #De novo motif search
 
