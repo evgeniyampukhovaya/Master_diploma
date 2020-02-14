@@ -3,7 +3,6 @@ Code for ChIP-seq peak intersections and motif finding
 #Intersections of 2 bed files (genome intervals)
 
 Intersection_bed_files.py - find overlapping regions in 2 bed files 
-
 Sample files: bed_file1.bed, bed_file2.bed, bed_file_result.bed
 
 #Find motifs using PWMs
